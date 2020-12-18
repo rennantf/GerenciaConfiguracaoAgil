@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="DESKTOP-L2LHU97" name="TestValores" skipped="0" tests="2" time="0.074" timestamp="2020-12-18T21:51:03">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="C:\Users\Rennan\Desktop\eclipse\plugins\org.eclipse.pde.build_3.10.200.v20181008-0641\templates" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Users\Rennan\Desktop\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324" />
+    <property name="java.runtime.version" value="1.8.0_261-b12" />
+    <property name="user.name" value="Rennan" />
+    <property name="build.dir" value="C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil\bin" />
+    <property name="user.language" value="pt" />
+    <property name="test.report.dir" value="C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil\testreport" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin" />
+    <property name="ant.project.default-target" value="main" />
+    <property name="doc.dir" value="C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil\doc" />
+    <property name="ant.project.name" value="java-ant project" />
+    <property name="java.version" value="1.8.0_261" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="BR" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.261-b12" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Users\Rennan\Desktop\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="C:\Users\Rennan\Desktop\eclipse\plugins\org.eclipse.pde.build_3.10.200.v20181008-0641\scripts" />
+    <property name="user.home" value="C:\Users\Rennan" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test.dir" value="C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil\src" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_261/bin/server;C:/Program Files/Java/jre1.8.0_261/bin;C:/Program Files/Java/jre1.8.0_261/lib/amd64;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\OpenVPN\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Rennan\AppData\Roaming\npm;C:\Users\Rennan\AppData\Roaming\npm\node_modules\@angular\cli\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Rennan\AppData\Roaming\npm\node_modules\chromedriver\lib\chromedriver;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\Rennan\AppData\Local\Microsoft\WindowsApps;C:\Users\Rennan\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_261\bin;;C:\Users\Rennan\Desktop\eclipse;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestValores skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil\testreport\TEST-TestValores.xml crashfile=C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil\junitvmwatcher3985910628419133696.properties propsfile=C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil\junit2697627058567667449.properties" />
+    <property name="java.class.path" value="C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil\lib\hamcrest-core-1.3.jar;C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil\lib\junit.jar;C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil\bin;C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil\bin\tests;C:\Users\Rennan\Desktop\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-launcher.jar;C:\Users\Rennan\Desktop\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant.jar;C:\Users\Rennan\Desktop\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-junit.jar;C:\Users\Rennan\Desktop\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.java-ant project" value="C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil\build.xml" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="eclipse.pdebuild.home" value="C:\Users\Rennan\Desktop\eclipse\plugins\org.eclipse.pde.build_3.10.200.v20181008-0641\." />
+    <property name="java.io.tmpdir" value="C:\Users\Rennan\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil" />
+    <property name="build.test.dir" value="C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil\bin\tests" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Users\Rennan\Desktop\eclipse\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="source.dir" value="C:\Users\Rennan\eclipse-workspace\GerenciaConfiguracaoAgil\src" />
+    <property name="ant.file.type.java-ant project" value="file" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="main,doc" />
+  </properties>
+  <testcase classname="TestValores" name="testDeletaValores" time="0.004" />
+  <testcase classname="TestValores" name="testInsereValores" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

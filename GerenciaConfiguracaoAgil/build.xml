@@ -1,0 +1,72 @@
+<project name="java-ant project" default = "main" basedir=".">
+	<property name="source.dir" location="src"/>
+	<property name="build.dir" location="bin"/>
+	<property name="doc.dir" location="doc"/>
+	<property name="test.dir" location="src"/>
+	<property name="build.test.dir" location="bin/tests"/>	
+	<property name="test.report.dir" location="testreport"/>
+
+	<path id="junit.class.path">
+		<pathelement location="lib/hamcrest-core-1.3.jar"/>
+		<pathelement location="lib/junit.jar"/>
+		<pathelement location="${build.dir}"/>
+	</path>
+
+	<target name="init">
+		<mkdir dir="${build.dir}"/>
+		<mkdir dir="${doc.dir}"/>
+		<mkdir dir="${build.test.dir}"/>
+		<mkdir dir="${test.report.dir}"/>
+	</target>
+
+    <target name="compile">
+    	<javac srcdir="${source.dir}" destdir="${build.dir}" includeantruntime="false">
+    		<classpath refid="junit.class.path" />
+    	</javac>
+    	<javac srcdir="${test.dir}" destdir="${build.test.dir}" includeantruntime="false">
+    		<classpath refid="junit.class.path" />
+    	</javac>
+    </target>
+
+	<target name="doc">
+	  <javadoc destdir="${doc.dir}">
+		<fileset dir="."/>
+	  	<classpath refid="junit.class.path" />
+	  	</javadoc>
+	    </target>
+
+	<target name="junit">
+		<junit printsummary="on" fork="true" haltonfailure="yes">
+			<classpath refid="junit.class.path" />
+			<classpath>
+				<pathelement location="${build.test.dir}"/>
+			</classpath>
+			<formatter type="xml"/>
+			<batchtest todir="${test.report.dir}">
+				<fileset dir="${test.dir}">
+					<include name="*Test*.java"/>
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>
+	
+	<target name="clean">
+		<delete dir="${build.dir}" />
+		<delete dir="${doc.dir}" />
+		<delete dir="${build.test.dir}" />
+		<delete dir="${test.report.dir}" />
+		<delete>
+			<fileset defaultexcludes="no" dir ="${source.dir}" includes="**/*~" />
+		</delete>
+	</target>
+
+	<target name="package">
+		<mkdir dir="jar"/>
+		<jar basedir="bin" destfile="jar/aplicacao.jar"></jar>
+	</target>
+
+	<target name="main" depends="clean, init, compile, junit, doc, package">
+		<description>Main target</description>
+	</target>
+	
+</project>
